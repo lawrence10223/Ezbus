@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="massive_mark.ezbus.welcomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/bus1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bus"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/bus2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bus" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/bus3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bus"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/bus4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bus"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="80dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/kamalan"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/logo_kml"
+            android:onClick="View_1"/>
+        <ImageView
+            android:id="@+id/capital"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/capital_logo"
+            android:onClick="View_2"/>
+        <ImageView
+            android:id="@+id/kuokuang"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/kuo_kuang_logo"
+            android:onClick="View_3"/>
+        <ImageView
+            android:id="@+id/metropolitan"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/metropolitan"
+            android:onClick="View_4"/>
+
+    </LinearLayout>
+</RelativeLayout>
